@@ -1,6 +1,6 @@
 {
   "name": "@anandarizki/use-undo-redo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "homepage": "https://github.com/anandarizki/use-undo-redo",
   "scripts": {
