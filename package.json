@@ -1,15 +1,40 @@
 {
-  "name": "react-state-history",
+  "name": "use-undo-redo",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "homepage": "https://github.com/anandarizki/use-undo-redo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ."
   },
-  "keywords": [],
-  "author": "Ananda Rizki",
+  "keywords": [
+    "react",
+    "hook",
+    "useUndoRedo",
+    "undo",
+    "redo",
+    "state management",
+    "history",
+    "time travel",
+    "debounce",
+    "state",
+    "react-hooks",
+    "history stack",
+    "state history",
+    "undo-redo",
+    "react state",
+    "state management library",
+    "state management hook",
+    "react state management",
+    "javascript",
+    "typescript"
+  ],
+  "author": {
+    "name": "Ananda Rizki",
+    "url": "https://rizki.id"
+  },
   "license": "MIT",
-  "description": "",
+  "description": "A hook provides a simple and efficient way to manage undo and redo functionality in your React applications",
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
     "lodash.isequal": "^4.5.0",
