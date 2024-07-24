@@ -16,14 +16,14 @@ https://codesandbox.io/p/sandbox/react-state-history-4wj3mf
 ## Installation
 
 ```node
-npm i --save use-undo-redo
+npm i @anandarizki/use-undo-redo
 ```
 
 ## Basic Usage
 
 ```js
 //import the hook
-import { useUndoRedo } from "use-undo-redo";
+import { useUndoRedo } from "@anandarizki/use-undo-redo";
 
 //in react component
 const state = useState(0);
@@ -58,7 +58,7 @@ function MyComponent() {
 
 ```jsx
 import { useState } from "react";
-import { useUndoRedo } from "use-undo-redo";
+import { useUndoRedo } from "@anandarizki/use-undo-redo";
 
 function MyComponent() {
   const [count, setCount] = useState(0);
