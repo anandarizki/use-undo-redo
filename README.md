@@ -1,9 +1,10 @@
 # use-undo-redo
 
 The `useUndoRedo` hook provides a simple and efficient way to manage undo and redo functionality in your React applications. It helps you maintain a history of state changes, allowing users to seamlessly navigate through different states of your application. 
-
+## Compatiblity
+`"react": "^18.3.1",`
 ## Demo
-https://codesandbox.io/p/sandbox/react-state-history-4wj3mf
+https://undoredo.rizki.id
 
 ## Features
 
