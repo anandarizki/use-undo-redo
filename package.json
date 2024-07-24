@@ -1,0 +1,29 @@
+{
+  "name": "react-state-history",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "Ananda Rizki",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.last": "^3.0.0",
+    "react": "^18.3.1",
+    "undici": "^6.19.4"
+  },
+  "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.9",
+    "@types/lodash.isequal": "^4.5.8",
+    "@types/lodash.last": "^3.0.9",
+    "@types/react": "^18.3.3",
+    "csstype": "^3.1.3",
+    "typescript": "^5.5.4",
+    "undici-types": "^6.19.4"
+  }
+}
