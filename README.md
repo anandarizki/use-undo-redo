@@ -26,9 +26,11 @@ npm i @anandarizki/use-undo-redo
 //import the hook
 import { useUndoRedo } from "@anandarizki/use-undo-redo";
 
-//in react component
-const state = useState(0);
-const [undo, redo] = useUndoRedo(state);
+//your state handler
+const [state, setState] = useState();
+
+//initialize hooks and pass your state and setState as the argument
+const [undo, redo] = useUndoRedo([state, setState]);
 ```
 
 ### Integrating into an Existing Component
@@ -76,10 +78,10 @@ function MyComponent() {
       </div>
 
       <div>
-        <button onClick={undo} disabled={!canUndo}>
+        <button onClick={undo}>
           Undo
         </button>
-        <button onClick={redo} disabled={!canRedo}>
+        <button onClick={redo}>
           Redo
         </button>
       </div>
