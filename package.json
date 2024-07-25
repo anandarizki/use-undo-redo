@@ -2,9 +2,12 @@
   "name": "@anandarizki/use-undo-redo",
   "version": "1.0.2",
   "main": "dist/index.js",
-  "homepage": "https://github.com/anandarizki/use-undo-redo",
+  "homepage": "https://undoredo.rizki.id",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anandarizki/use-undo-redo.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ."
   },
   "keywords": [
@@ -38,17 +41,17 @@
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
     "lodash.isequal": "^4.5.0",
-    "lodash.last": "^3.0.0",
-    "react": "^18.3.1",
-    "undici": "^6.19.4"
+    "lodash.last": "^3.0.0"
   },
   "devDependencies": {
     "@types/lodash.clonedeep": "^4.5.9",
     "@types/lodash.isequal": "^4.5.8",
     "@types/lodash.last": "^3.0.9",
-    "@types/react": "^18.3.3",
-    "csstype": "^3.1.3",
-    "typescript": "^5.5.4",
-    "undici-types": "^6.19.4"
+    "@types/react": "^18.2.33",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }

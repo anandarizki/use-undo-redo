@@ -2,7 +2,7 @@
 
 The `useUndoRedo` hook provides a simple and efficient way to manage undo and redo functionality in your React applications. It helps you maintain a history of state changes, allowing users to seamlessly navigate through different states of your application. 
 ## Compatiblity
-`"react": "^18.3.1",`
+`"react": "^18.2.0"`
 ## Demo
 https://undoredo.rizki.id
 
@@ -31,7 +31,7 @@ const state = useState(0);
 const [undo, redo] = useUndoRedo(state);
 ```
 
-### Example add in existing app
+### Integrating into an Existing Component
 
 You don't need to overhaul your existing state management. This hook can be seamlessly integrated into your code with just a single line addition.
 
@@ -109,7 +109,7 @@ useUndoRedo<T>(primaryState: [T, (v: T) => void], options?: Options): Output<T>
         - **history**: An array representing the current state history.
 jumpTo: A function to jump to a specific point in the history by index.
 
-**Example hook call with full return and options**
+**Full usage**
 
 ```js
 const [undo, redo, { canUndo, canRedo, jumpTo, history, pointer, reset }] =

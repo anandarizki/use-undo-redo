@@ -1,0 +1,7 @@
+# Exclude everything
+*
+
+# Include specific folders and files
+!dist/
+!package.json
+!README.md
