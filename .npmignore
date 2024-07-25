@@ -4,7 +4,6 @@ dist/index.js.map
 dist/useUndoRedo.js.map
 
 # Ignore configuration files
-*.ts
 *.tsx
 tsconfig.json
 .babelrc
