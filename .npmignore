@@ -1,0 +1,28 @@
+# Ignore source files
+src/
+dist/index.js.map
+dist/useUndoRedo.js.map
+
+# Ignore configuration files
+*.ts
+*.tsx
+tsconfig.json
+.babelrc
+webpack.config.js
+
+# Ignore test files
+test/
+__tests__/
+*.spec.js
+*.test.js
+
+# Ignore other unnecessary files
+node_modules/
+.git/
+.gitignore
+.gitattributes
+.eslintignore
+.eslintrc
+.prettierrc
+.vscode/
+.package.lock.json
