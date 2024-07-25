@@ -1,6 +1,6 @@
 {
   "name": "@anandarizki/use-undo-redo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "homepage": "https://undoredo.rizki.id",
   "repository": {
