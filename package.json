@@ -1,6 +1,6 @@
 {
   "name": "@anandarizki/use-undo-redo",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "dist/index.js",
   "homepage": "https://undoredo.rizki.id",
   "repository": {
@@ -47,8 +47,8 @@
     "@types/lodash.clonedeep": "^4.5.9",
     "@types/lodash.isequal": "^4.5.8",
     "@types/lodash.last": "^3.0.9",
-    "@types/react": "^18.2.33",
-    "react": "^18.2.0",
+    "@types/react": "^19.1.13",
+    "react": "^19.1.1",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
